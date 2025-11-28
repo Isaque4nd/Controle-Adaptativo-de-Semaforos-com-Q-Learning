@@ -1,0 +1,7 @@
+DEFAULT_VEHTYPE: 23 veículos (46%)
+
+authority: 17 veículos (34%)
+
+emergency: 5 veículos (10%)
+
+firebrigade: 5 veículos (10%)

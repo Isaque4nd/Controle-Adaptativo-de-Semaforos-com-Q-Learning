@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="authority" vClass="authority" guiShape="police" />
+    <vType id="emergency" vClass="emergency" guiShape="emergency" />
+    <vType id="firebrigade" vClass="emergency" guiShape="firebrigade" />
+    <vType id="DEFAULT_VEHTYPE" vClass="passenger" guiShape="passenger" />
+
+    <trip id="t_0"  type="DEFAULT_VEHTYPE" depart="0.00" from="-197596555#2" to="368669404#6" />
+    <trip id="t_1"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#0" to="197596555#3" via="-197596555#2" />
+    <trip id="t_2"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#1" to="368669404#6" via="-197596555#2" />
+    <trip id="t_3"  type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#2" to="368669404#5" />
+    <trip id="t_4"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#2" to="368830257#0" />
+    <trip id="t_5"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#0" to="368669404#6" via="-197596555#2" />
+    <trip id="t_6"  type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#3" to="368669404#5" />
+    <trip id="t_7"  type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#2" to="368669404#7" />
+    <trip id="t_8"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#2" to="197596555#3" />
+    <trip id="t_9"  type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#0" to="368669404#5" via="-197596555#2" />
+    <trip id="t_10" type="DEFAULT_VEHTYPE" depart="0.00" from="-197596555#2" to="368830257#0" />
+    <trip id="t_11" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#2" to="368669404#4" />
+    <trip id="t_12" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#4" to="368669404#5" />
+    <trip id="t_13" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#1" to="368669404#5" />
+    <trip id="t_14" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#3" to="4408723#4" />
+    <trip id="t_15" type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#0" to="368669404#5" />
+    <trip id="t_16" type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#1" to="4408723#4" />
+    <trip id="t_17" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#1" to="368669404#5" />
+    <trip id="t_18" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#3" to="368669404#5" />
+    <trip id="t_19" type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#0" to="368669404#6" via="-197596555#2" />
+    <trip id="t_20" type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#1" to="4408723#4" />
+    <trip id="t_21" type="DEFAULT_VEHTYPE" depart="0.00" from="197596555#2" to="197596555#3" />
+    <trip id="t_22" type="DEFAULT_VEHTYPE" depart="0.00" from="368669404#3" to="368669404#7" />
+    
+    <trip id="t_23" type="authority" depart="0.00" from="-197596555#2" to="368669404#6" />
+    <trip id="t_24" type="authority" depart="0.00" from="368669404#4" to="4408723#4" />
+    <trip id="t_25" type="authority" depart="0.00" from="368669404#1" to="368669404#5" />
+    <trip id="t_26" type="authority" depart="0.00" from="368669404#4" to="368669404#6" />
+    <trip id="t_27" type="authority" depart="0.00" from="197596555#0" to="197596555#2" />
+    <trip id="t_28" type="authority" depart="0.00" from="197596555#1" to="368669404#7" via="-197596555#2" />
+    <trip id="t_29" type="authority" depart="0.00" from="368669404#1" to="368669404#6" />
+    <trip id="t_30" type="authority" depart="0.00" from="368669404#4" to="368669404#7" />
+    <trip id="t_31" type="authority" depart="0.00" from="197596555#0" to="368669404#6" via="-197596555#2" />
+    <trip id="t_32" type="authority" depart="0.00" from="197596555#1" to="368669404#7" />
+    <trip id="t_33" type="authority" depart="0.00" from="197596555#2" to="197596555#3" />
+    <trip id="t_34" type="authority" depart="0.00" from="-197596555#2" to="368669404#6" />
+    <trip id="t_35" type="authority" depart="0.00" from="197596555#1" to="197596555#3" />
+    <trip id="t_36" type="authority" depart="0.00" from="368669404#2" to="368669404#6" />
+    <trip id="t_37" type="authority" depart="0.00" from="368669404#3" to="4408723#4" />
+    <trip id="t_38" type="authority" depart="0.00" from="197596555#1" to="368830257#0" />
+    <trip id="t_39" type="authority" depart="0.00" from="368669404#2" to="368669404#7" />
+
+    <trip id="t_40" type="firebrigade" depart="0.00" from="368669404#3" to="368669404#5" />
+    <trip id="t_41" type="firebrigade" depart="0.00" from="368669404#4" to="368669404#5" />
+    <trip id="t_42" type="firebrigade" depart="0.00" from="197596555#1" to="368669404#6" via="-197596555#2" />
+    <trip id="t_43" type="firebrigade" depart="0.00" from="368669404#3" to="4408723#4" />
+    <trip id="t_44" type="firebrigade" depart="0.00" from="368669404#4" to="368669404#6" />
+
+    <trip id="t_45" type="emergency" depart="0.00" from="-197596555#2" to="368669404#6" />
+    <trip id="t_46" type="emergency" depart="0.00" from="197596555#1" to="197596555#3" />
+    <trip id="t_47" type="emergency" depart="0.00" from="368669404#4" to="368669404#5" />
+    <trip id="t_48" type="emergency" depart="0.00" from="197596555#2" to="197596555#3" />
+    <trip id="t_49" type="emergency" depart="0.00" from="197596555#0" to="368669404#6" via="-197596555#2" />
+
+</routes>

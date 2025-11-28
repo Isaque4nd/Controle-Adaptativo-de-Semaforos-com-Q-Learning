@@ -1,0 +1,34 @@
+# --- Python (Padrão) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- IDEs e Sistema Operacional ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Arquivos de Saída e Resultados ---
+# Ignorar os CSVs gerados nas pastas de resultados
+**/resultados_tempo_fixo/
+**/resultados_qlearning/
+
+# Ignorar gráficos e relatórios gerados
+**/relatorios/
+*.png
+*.pdf
+
+relatorio_comparativo_geral.pdf
+tabela_resumo_geral.png
+
+# --- Modelos de Aprendizado (Q-Learning) ---
+*.pkl
+
+# --- Logs e arquivos temporários do SUMO ---
+*.log
