@@ -14,10 +14,10 @@ As simulações são realizadas utilizando o simulador **SUMO (Simulation of Urb
 
 O sistema foi validado em quatro cenários reais da cidade de Vitória da Conquista/BA:
 
-1. **Prox_Samur:** Foco em prioridade hospitalar/ambulâncias.
-2. **Prox_EstadioLomanto:** Foco em gestão de eventos e alto fluxo.
-3. **Prox_BatalhaoPolicia:** Foco em rotas de veículos oficiais.
-4. **BrumadoxRPacheco:** Cruzamento arterial de tráfego misto.
+* **Prox_Samur:** Interseção crítica próxima ao hospital/SAMU.
+* **Prox_EstadioLomanto:** Região distante do centro da cidade.
+* **Prox_BatalhaoPolicia:** Rota frequente de veículos militares e policiais.
+* **BrumadoxRPacheco:** Cruzamento de avenidas arteriais.
 
 ---
 
