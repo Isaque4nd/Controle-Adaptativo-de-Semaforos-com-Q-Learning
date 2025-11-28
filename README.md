@@ -54,7 +54,7 @@ Antes de visualizar a simulação inteligente, é necessário "ensinar" o agente
 
 1. Entre na pasta do cenário desejado:
     ```bash
-    cd "mapas TCC/Prox_Samur"
+    cd "Controle Adaptativo de Semaforos com Q-Learning/Prox_Samur"
     ```
 
 2. Execute o treinamento:
@@ -113,7 +113,7 @@ Caso queira alterar o comportamento da IA, você pode editar as variáveis const
 Entenda onde está cada arquivo importante dentro do repositório:
 
 ```text
-├── Controle Adaptativo de Semaforos com-Q-Learning/
+├── Controle Adaptativo de Semaforos com Q-Learning/
 │   ├── relatorio_geral.py           # Gera o PDF final com todos os dados
 │   │
 │   ├── Prox_Samur/                  # [Exemplo de Cenário]
