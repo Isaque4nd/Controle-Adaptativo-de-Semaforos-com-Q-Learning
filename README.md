@@ -4,7 +4,7 @@
 ![SUMO](https://img.shields.io/badge/Simulator-SUMO-yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 
-Este repositório contém a implementação de um Trabalho de Conclusão de Curso (TCC) focado no **controle inteligente de tráfego urbano priorizando a passagens de veículos prioritários**. O projeto utiliza **Aprendizado por Reforço (Q-Learning)** para otimizar semáforos em interseções complexas, visando reduzir o tempo de espera e priorizar veículos de emergência (ambulâncias, bombeiros, polícia).
+Este repositório contém a implementação de um Trabalho de Conclusão de Curso (TCC) focado no **controle inteligente de tráfego urbano priorizando a passagem de veículos prioritários**. O projeto utiliza **Aprendizado por Reforço (Q-Learning)** para otimizar semáforos em interseções complexas, visando reduzir o tempo de espera e priorizar veículos de emergência (ambulâncias, bombeiros, polícia).
 
 As simulações são realizadas utilizando o simulador **SUMO (Simulation of Urban MObility)** integrado ao Python via **TraCI**.
 
